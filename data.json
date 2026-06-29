@@ -1,0 +1,75 @@
+[
+  // ── SECTION 1: Electronics ───────────────────────────────
+  // Subsection 1.1 — Phones
+  { _id: 1, category: "Electronics", sub: "Phones", product: "iPhone 15 Pro", sku: "APL-001", qty: 12, price: 999, revenue: 11988, region: "North", month: "Jan", year: 2024, tags: ["premium","apple"], status: "delivered", customerId: "C01" },
+  { _id: 2, category: "Electronics", sub: "Phones", product: "Samsung S24", sku: "SAM-002", qty: 8, price: 799, revenue: 6392, region: "South", month: "Jan", year: 2024, tags: ["android","samsung"], status: "delivered", customerId: "C02" },
+  { _id: 3, category: "Electronics", sub: "Phones", product: "Pixel 8", sku: "GOG-003", qty: 5, price: 699, revenue: 3495, region: "West", month: "Feb", year: 2024, tags: ["android","google"], status: "returned", customerId: "C03" },
+  { _id: 4, category: "Electronics", sub: "Phones", product: "OnePlus 12", sku: "OPL-004", qty: 20, price: 649, revenue: 12980, region: "East", month: "Feb", year: 2024, tags: ["android","budget-premium"], status: "delivered", customerId: "C04" },
+  // Subsection 1.2 — Laptops
+  { _id: 5, category: "Electronics", sub: "Laptops", product: "MacBook Pro M3", sku: "APL-005", qty: 7, price: 1999, revenue: 13993, region: "North", month: "Jan", year: 2024, tags: ["premium","apple","dev"], status: "delivered", customerId: "C01" },
+  { _id: 6, category: "Electronics", sub: "Laptops", product: "Dell XPS 15", sku: "DEL-006", qty: 10, price: 1499, revenue: 14990, region: "South", month: "Mar", year: 2024, tags: ["windows","dell"], status: "delivered", customerId: "C05" },
+  { _id: 7, category: "Electronics", sub: "Laptops", product: "Lenovo ThinkPad X1", sku: "LEN-007", qty: 15, price: 1299, revenue: 19485, region: "West", month: "Mar", year: 2024, tags: ["windows","business"], status: "delivered", customerId: "C06" },
+  { _id: 8, category: "Electronics", sub: "Laptops", product: "HP Spectre x360", sku: "HP-008", qty: 9, price: 1349, revenue: 12141, region: "East", month: "Apr", year: 2024, tags: ["windows","2-in-1"], status: "pending", customerId: "C07" },
+  // Subsection 1.3 — Audio
+  { _id: 9, category: "Electronics", sub: "Audio", product: "AirPods Pro", sku: "APL-009", qty: 30, price: 249, revenue: 7470, region: "North", month: "Jan", year: 2024, tags: ["wireless","apple"], status: "delivered", customerId: "C08" },
+  { _id: 10, category: "Electronics", sub: "Audio", product: "Sony WH-1000XM5", sku: "SNY-010", qty: 18, price: 349, revenue: 6282, region: "South", month: "Feb", year: 2024, tags: ["noise-cancel","sony"], status: "delivered", customerId: "C09" },
+  { _id: 11, category: "Electronics", sub: "Audio", product: "Bose QC45", sku: "BSE-011", qty: 22, price: 279, revenue: 6138, region: "West", month: "Apr", year: 2024, tags: ["noise-cancel","bose"], status: "delivered", customerId: "C10" },
+  { _id: 12, category: "Electronics", sub: "Audio", product: "JBL Flip 6", sku: "JBL-012", qty: 40, price: 129, revenue: 5160, region: "East", month: "May", year: 2024, tags: ["portable","speaker"], status: "delivered", customerId: "C11" },
+
+  // ── SECTION 2: Apparel ───────────────────────────────────
+  // Subsection 2.1 — Footwear
+  { _id: 13, category: "Apparel", sub: "Footwear", product: "Nike Air Max 270", sku: "NKE-013", qty: 50, price: 150, revenue: 7500, region: "North", month: "Feb", year: 2024, tags: ["nike","running"], status: "delivered", customerId: "C12" },
+  { _id: 14, category: "Apparel", sub: "Footwear", product: "Adidas Ultraboost", sku: "ADI-014", qty: 35, price: 180, revenue: 6300, region: "South", month: "Mar", year: 2024, tags: ["adidas","running"], status: "delivered", customerId: "C13" },
+  { _id: 15, category: "Apparel", sub: "Footwear", product: "Puma RS-X", sku: "PUM-015", qty: 28, price: 110, revenue: 3080, region: "West", month: "Jan", year: 2024, tags: ["puma","lifestyle"], status: "returned", customerId: "C14" },
+  { _id: 16, category: "Apparel", sub: "Footwear", product: "New Balance 990", sku: "NB-016", qty: 20, price: 175, revenue: 3500, region: "East", month: "May", year: 2024, tags: ["nb","running"], status: "delivered", customerId: "C15" },
+  // Subsection 2.2 — T-Shirts
+  { _id: 17, category: "Apparel", sub: "T-Shirts", product: "Uniqlo AIRism Tee", sku: "UNQ-017", qty: 100, price: 19, revenue: 1900, region: "North", month: "Jan", year: 2024, tags: ["basic","uniqlo"], status: "delivered", customerId: "C01" },
+  { _id: 18, category: "Apparel", sub: "T-Shirts", product: "H&M Slim Fit Tee", sku: "HM-018", qty: 80, price: 12, revenue: 960, region: "South", month: "Feb", year: 2024, tags: ["basic","hm"], status: "delivered", customerId: "C02" },
+  { _id: 19, category: "Apparel", sub: "T-Shirts", product: "Ralph Lauren Polo", sku: "RL-019", qty: 45, price: 89, revenue: 4005, region: "West", month: "Mar", year: 2024, tags: ["premium","polo"], status: "delivered", customerId: "C16" },
+  { _id: 20, category: "Apparel", sub: "T-Shirts", product: "Supreme Box Logo", sku: "SUP-020", qty: 10, price: 148, revenue: 1480, region: "East", month: "Apr", year: 2024, tags: ["streetwear","hype"], status: "delivered", customerId: "C17" },
+  // Subsection 2.3 — Jackets
+  { _id: 21, category: "Apparel", sub: "Jackets", product: "The North Face Puffer", sku: "TNF-021", qty: 25, price: 299, revenue: 7475, region: "North", month: "Nov", year: 2024, tags: ["outdoor","winter"], status: "delivered", customerId: "C18" },
+  { _id: 22, category: "Apparel", sub: "Jackets", product: "Patagonia Nano Puff", sku: "PAT-022", qty: 18, price: 249, revenue: 4482, region: "South", month: "Dec", year: 2024, tags: ["outdoor","eco"], status: "delivered", customerId: "C19" },
+  { _id: 23, category: "Apparel", sub: "Jackets", product: "Canada Goose Parka", sku: "CG-023", qty: 8, price: 1095, revenue: 8760, region: "West", month: "Dec", year: 2024, tags: ["premium","winter"], status: "delivered", customerId: "C20" },
+
+  // ── SECTION 3: Software / SaaS ───────────────────────────
+  // Subsection 3.1 — Productivity
+  { _id: 24, category: "SaaS", sub: "Productivity", product: "Notion Pro Plan", sku: "NOT-024", qty: 200, price: 16, revenue: 3200, region: "North", month: "Jan", year: 2024, tags: ["notes","collab"], status: "active", customerId: "C21" },
+  { _id: 25, category: "SaaS", sub: "Productivity", product: "Slack Pro", sku: "SLK-025", qty: 150, price: 7.25, revenue: 1087, region: "South", month: "Jan", year: 2024, tags: ["chat","collab"], status: "active", customerId: "C22" },
+  { _id: 26, category: "SaaS", sub: "Productivity", product: "Figma Team", sku: "FIG-026", qty: 80, price: 15, revenue: 1200, region: "West", month: "Feb", year: 2024, tags: ["design","collab"], status: "active", customerId: "C23" },
+  { _id: 27, category: "SaaS", sub: "Productivity", product: "Linear Standard", sku: "LIN-027", qty: 60, price: 8, revenue: 480, region: "East", month: "Mar", year: 2024, tags: ["pm","dev"], status: "active", customerId: "C24" },
+  // Subsection 3.2 — Analytics
+  { _id: 28, category: "SaaS", sub: "Analytics", product: "Mixpanel Growth", sku: "MXP-028", qty: 40, price: 25, revenue: 1000, region: "North", month: "Feb", year: 2024, tags: ["analytics","events"], status: "active", customerId: "C25" },
+  { _id: 29, category: "SaaS", sub: "Analytics", product: "Amplitude Business", sku: "AMP-029", qty: 30, price: 995, revenue: 29850, region: "South", month: "Mar", year: 2024, tags: ["analytics","enterprise"], status: "active", customerId: "C26" },
+  { _id: 30, category: "SaaS", sub: "Analytics", product: "Segment Business", sku: "SEG-030", qty: 20, price: 120, revenue: 2400, region: "West", month: "Apr", year: 2024, tags: ["cdp","data"], status: "active", customerId: "C27" },
+  // Subsection 3.3 — DevTools
+  { _id: 31, category: "SaaS", sub: "DevTools", product: "GitHub Team", sku: "GH-031", qty: 300, price: 4, revenue: 1200, region: "North", month: "Jan", year: 2024, tags: ["git","dev"], status: "active", customerId: "C28" },
+  { _id: 32, category: "SaaS", sub: "DevTools", product: "Vercel Pro", sku: "VCL-032", qty: 90, price: 20, revenue: 1800, region: "South", month: "Feb", year: 2024, tags: ["deploy","dev"], status: "active", customerId: "C29" },
+  { _id: 33, category: "SaaS", sub: "DevTools", product: "Datadog APM", sku: "DD-033", qty: 50, price: 31, revenue: 1550, region: "West", month: "Mar", year: 2024, tags: ["monitor","dev"], status: "active", customerId: "C30" },
+
+  // ── SECTION 4: Home & Kitchen ────────────────────────────
+  // Subsection 4.1 — Appliances
+  { _id: 34, category: "Home", sub: "Appliances", product: "Dyson V15 Detect", sku: "DYS-034", qty: 14, price: 749, revenue: 10486, region: "North", month: "Mar", year: 2024, tags: ["vacuum","dyson"], status: "delivered", customerId: "C31" },
+  { _id: 35, category: "Home", sub: "Appliances", product: "Roomba j9+", sku: "IRO-035", qty: 11, price: 849, revenue: 9339, region: "South", month: "Apr", year: 2024, tags: ["robot","irobot"], status: "delivered", customerId: "C32" },
+  { _id: 36, category: "Home", sub: "Appliances", product: "Instant Pot Duo", sku: "IP-036", qty: 60, price: 79, revenue: 4740, region: "West", month: "May", year: 2024, tags: ["kitchen","cooking"], status: "delivered", customerId: "C33" },
+  { _id: 37, category: "Home", sub: "Appliances", product: "Nespresso Vertuo", sku: "NES-037", qty: 25, price: 199, revenue: 4975, region: "East", month: "Jun", year: 2024, tags: ["coffee","nespresso"], status: "delivered", customerId: "C34" },
+  // Subsection 4.2 — Furniture
+  { _id: 38, category: "Home", sub: "Furniture", product: "IKEA BEKANT Desk", sku: "IKE-038", qty: 30, price: 249, revenue: 7470, region: "North", month: "Jun", year: 2024, tags: ["ikea","wfh"], status: "delivered", customerId: "C35" },
+  { _id: 39, category: "Home", sub: "Furniture", product: "Herman Miller Aeron", sku: "HM-039", qty: 6, price: 1695, revenue: 10170, region: "South", month: "Jul", year: 2024, tags: ["premium","ergonomic"], status: "delivered", customerId: "C36" },
+  { _id: 40, category: "Home", sub: "Furniture", product: "West Elm Sofa", sku: "WE-040", qty: 4, price: 1899, revenue: 7596, region: "West", month: "Aug", year: 2024, tags: ["sofa","modern"], status: "delivered", customerId: "C37" },
+
+  // ── SECTION 5: Health & Fitness ──────────────────────────
+  // Subsection 5.1 — Wearables
+  { _id: 41, category: "Health", sub: "Wearables", product: "Apple Watch S9", sku: "APL-041", qty: 22, price: 399, revenue: 8778, region: "North", month: "Sep", year: 2024, tags: ["apple","fitness"], status: "delivered", customerId: "C38" },
+  { _id: 42, category: "Health", sub: "Wearables", product: "Fitbit Charge 6", sku: "FIT-042", qty: 35, price: 159, revenue: 5565, region: "South", month: "Oct", year: 2024, tags: ["fitbit","sleep"], status: "delivered", customerId: "C39" },
+  { _id: 43, category: "Health", sub: "Wearables", product: "Garmin Forerunner", sku: "GAR-043", qty: 18, price: 449, revenue: 8082, region: "West", month: "Sep", year: 2024, tags: ["garmin","running"], status: "returned", customerId: "C40" },
+  // Subsection 5.2 — Supplements
+  { _id: 44, category: "Health", sub: "Supplements", product: "Optimum Nutrition Whey", sku: "ON-044", qty: 80, price: 59, revenue: 4720, region: "North", month: "Jan", year: 2024, tags: ["protein","gym"], status: "delivered", customerId: "C41" },
+  { _id: 45, category: "Health", sub: "Supplements", product: "Athletic Greens AG1", sku: "AG-045", qty: 50, price: 99, revenue: 4950, region: "East", month: "Feb", year: 2024, tags: ["greens","wellness"], status: "delivered", customerId: "C42" },
+  { _id: 46, category: "Health", sub: "Supplements", product: "Thorne Creatine", sku: "THR-046", qty: 60, price: 39, revenue: 2340, region: "South", month: "Mar", year: 2024, tags: ["creatine","gym"], status: "delivered", customerId: "C43" },
+  // Subsection 5.3 — Equipment
+  { _id: 47, category: "Health", sub: "Equipment", product: "Peloton Bike+", sku: "PEL-047", qty: 5, price: 2495, revenue: 12475, region: "North", month: "Nov", year: 2024, tags: ["bike","premium"], status: "delivered", customerId: "C44" },
+  { _id: 48, category: "Health", sub: "Equipment", product: "Bowflex SelectTech", sku: "BOW-048", qty: 12, price: 429, revenue: 5148, region: "West", month: "Oct", year: 2024, tags: ["dumbbells","home-gym"], status: "delivered", customerId: "C45" },
+  { _id: 49, category: "Health", sub: "Equipment", product: "TRX Suspension Kit", sku: "TRX-049", qty: 25, price: 199, revenue: 4975, region: "East", month: "Sep", year: 2024, tags: ["trx","bodyweight"], status: "delivered", customerId: "C46" },
+  { _id: 50, category: "Health", sub: "Equipment", product: "Lululemon Yoga Mat", sku: "LUL-050", qty: 70, price: 98, revenue: 6860, region: "South", month: "Aug", year: 2024, tags: ["yoga","lululemon"], status: "delivered", customerId: "C47" }
+]
